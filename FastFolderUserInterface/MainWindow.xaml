@@ -1,0 +1,72 @@
+﻿<Window x:Class="FastFolderUserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FastFolderUserInterface"
+        mc:Ignorable="d" FontSize="18"
+        Title="Quick Folder" Height="250" Width="500" FontFamily="Segoe UI Light" ResizeMode="NoResize">
+    <Grid Margin="10" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="2" Margin="0 0 0 15">
+            <TextBlock Text="Context Menu Items:" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <TextBox Name="ContextMenuItemsPath" 
+                         FontSize="14"
+                         Padding="4" />
+                <Button Grid.Column="1" 
+                        x:Name="BrowseContextMenuItemsFile"
+                        Content="..."
+                        Margin="5 0 0 0" 
+                        Click="BrowseContextMenuItemsFile_Click"/>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" Margin="0 0 0 15">
+            <TextBlock Text="Folder Structures Path:" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="30" />
+                </Grid.ColumnDefinitions>
+                <TextBox x:Name="FolderStructuresPath"
+                         FontSize="14"
+                         Padding="4"/>
+                <Button 
+                    Grid.Column="1"
+                    x:Name="BrowseFolderStructuresFile"
+                    Content="..."
+                    Margin="5 0 0 0" Click="BrowseFolderStructuresFile_Click"/>
+            </Grid>
+        </StackPanel>
+
+        <!-- Buttons -->
+
+        <Button Grid.Row="2" 
+                Name="SetRegistryMenus"
+                Content="Create Context Menus" 
+                Margin="0 0 5 0"
+                Click="Button_Click" VerticalAlignment="Stretch" />
+        
+        <Button Grid.Column="1" 
+                Grid.Row="2" 
+                Name="UnsetRegistryMenus" 
+                Content="Remove Context Menus" 
+                Margin="5 0 0 0"
+                Padding="10"
+                Click="UnsetRegistryMenus_Click" />
+    </Grid>
+</Window>

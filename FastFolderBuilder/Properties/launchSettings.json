@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FastFolderBuilder": {
+      "commandName": "Project",
+      "commandLineArgs": "PCLab C:\\Users\\micha\\Desktop\\Tests"
+    }
+  }
+}
