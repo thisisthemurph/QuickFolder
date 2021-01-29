@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFolderBuilder", "FastFo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FastFolderLibrary", "FastFolderLibrary\FastFolderLibrary.csproj", "{3AE3438B-C71C-48B4-B31A-AB6170552D1D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExampleSettingsFiles", "ExampleSettingsFiles", "{14DB5332-5392-4A7B-9E87-63552E848CDD}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\Tests\menuitems.json = ..\..\..\Desktop\Tests\menuitems.json
+		..\..\..\Desktop\Tests\structures.xml = ..\..\..\Desktop\Tests\structures.xml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
