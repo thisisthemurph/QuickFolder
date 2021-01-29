@@ -1,0 +1,34 @@
+[
+	{
+		"Key": "QuickFolder",
+		"Verb": "Open Quick Folder",
+		"IsUIKey": true
+	},
+	{
+		"Key": "QuickFolderFct",
+		"Verb": "FCT",
+		"MenuItems": [
+			{
+				"Key": "PCLab",
+				"Verb": "Create PC Lab structure",
+				"Command": "\"%V\" \"PCLab\""
+			},
+			{
+				"Key": "PhoneLab",
+				"Verb": "Create Phone Lab structure",
+				"Command": "\"%V\" \"PhoneLab\""
+			}
+		]
+	},
+	{
+		"Key": "QuickFolderPL",
+		"Verb": "Phone Lab",
+		"MenuItems": [
+			{
+				"Key": "PL_NCA_L2",
+				"Verb": "Create NCA Level 2 structure",
+				"Command": "\"%V\" \"PL_NCA_L2\""
+			}
+		]
+	}
+]

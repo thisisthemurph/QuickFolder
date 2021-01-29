@@ -1,0 +1,35 @@
+<Structures>
+	<Structure key="PCLab">
+		<Folder name="PC">
+			<Folder name="Case Documentation">
+				<Folder name="Examination Log" />
+			</Folder>
+			<Folder name="Exhibit Photographs">
+			</Folder>
+		</Folder>
+	</Structure>
+	<Structure key="PhoneLab">
+		<Folder name="PhoneLab">
+			<Folder name="Case Documentation">
+			</Folder>
+			<Folder name="Exhibit Photographs">
+			</Folder>
+		</Folder>
+	</Structure>
+	<Structure key="PL_NCA_L2">
+		<Folder name="NCA-REFERENCE">
+			<Folder name="Source Data">
+				<Folder name="AB-01">
+					<Folder name="AB-01-D1" />
+					<Folder name="AB-01-S1" />
+					<Folder name="AB-01-S1" />
+				</Folder>
+			</Folder>
+			<Folder name="Generated Data">
+				<Folder name="XX-01-01-01-2021-INTEL">
+					<Folder name="Extracted Data" />
+				</Folder>
+			</Folder>
+		</Folder>
+	</Structure>
+</Structures>
